@@ -8,11 +8,13 @@ First check the [concepts](https://webpack.js.org/concepts/).
  3. `npm i webpack webpack-cli --save-dev`
 
 ### Project structure
- demo
+```
+demo
  |-package.json
  |-index.html
  |-src
    |-index.js
+```
 
 ### First "Problematic" App approach
  1. Create a normal HTML structure and add to the `<head>` two scripts for including [lodash](https://unpkg.com/lodash@4.16.6) and `index.js`
